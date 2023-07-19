@@ -1,3 +1,22 @@
+/* Css Selector  */
+/* ID Selector */
 #para {
   color: yellow;
+  text-align: justify;
+}
+
+/* Class Selector */
+.cpara {
+  color: blue;
+}
+
+/* Universal Selector */
+* {
+  margin: 0;
+  padding: 0;
+}
+/* Grouping Selector */
+h1,
+p {
+  background-color: pink;
 }
