@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  color: blueviolet;
+  background: whitesmoke;
+}
+.container {
+  max-width: 960px;
+  margin: 100px auto;
+  padding: 10px;
+  display: grid;
+  /* grid-template-columns: 1fr 1fr 1fr; */
+  grid-template-columns: repeat(3, 1fr);
+  /* column-gap: 10px;
+  row-gap: 20px; */
+  gap: 10px;
+  /* grid-auto-rows: 200px; */
+  grid-auto-rows: minmax(30px, auto);
+}
+.item {
+  background: steelblue;
+  font-size: 20px;
+  padding: 20px;
+  border: skyblue 1px solid;
+}

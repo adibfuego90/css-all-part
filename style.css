@@ -16,7 +16,11 @@
   padding: 0;
 }
 /* Grouping Selector */
-h1,
+/* h1,
 p {
   background-color: pink;
+}; */
+.container {
+  background: #232121;
+  color: rgb(245, 123, 123);
 }
